@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            background-image: linear-gradient(to right, rgba(0, 102, 255, 0.849), rgba(70, 20, 185, 0.726) );
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        header{
+            background-image: linear-gradient(to left, rgba(162, 151, 189, 0.425), rgba(154, 194, 253, 0.849));
+            font-family: Arial, Helvetica, sans-serif;
+            border: 10px solid;
+            border-color: rgb(161, 155, 121);
+            box-shadow: 1px 1px 1px black;
+            font-size: 16px;
+        }
+
+            a{
+                font-style: italic;
+                margin: 15px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: 700;
+                color: rgb(56, 86, 143);
+                font-size: 25px;
+            }
+
+            a:hover{
+                color: aqua;
+            }
+
+            article{
+                padding: 5px;
+                background-color: rgb(177, 118, 255); 
+                margin: 5px 0px;     
+            }
+
+                h2{
+                    background-color: rgb(189, 173, 129);
+                    margin-top: 10px;
+                    margin-bottom: 10px;
+                    padding: 10px;
+                    font-size: 25px;
+                    border-radius: 5px;
+                }
+
+                p{
+                    margin: 3px;
+                    padding: 5px;
+                    background-color: antiquewhite;
+                    font-family: Arial, Helvetica, sans-serif;
+                    box-shadow: 2px 2px 2px black;
+                }
+
+                article > aside{
+                    background-color: rgb(167, 110, 221);
+                    margin-top: 10px;
+                }
+
+        footer{
+            padding: 5px;
+            text-align: center;
+            color: rgb(150, 196, 248);
+            margin: 0px;
+            background-color: blue;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>MEU SITE</h1>
+        <nav>
+            <a href="">1</a>
+            <a href="">2</a>
+            <a href="">3</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+        </section>
+        <section id="noticias">
+            <article>
+            <h2>NOTÍCIAS SOBRE O BRASIL</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum delectus porro quis explicabo iusto praesentium non pariatur, provident consectetur veritatis accusantium sunt, assumenda veniam saepe qui, sed eius omnis illo!</p>
+            <aside>
+                Escrito por Visual Studio XP
+            </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        Criado por Rodrigo
+    </footer>
+</body>
+</html>
